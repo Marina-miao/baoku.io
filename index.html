@@ -1,0 +1,1245 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<title>Grid - Responsive Html5 Portfolio Template</title>
+	<meta name="description" content="Grid - Responsive Html5 Portfolio Template" />
+	<meta name="author" content="Felixplus - www.felixplus.com" />
+	<meta name="keywords" content="wordpress, themes, wordpress themes, premium wordpress themes, premium themes, wordpress theme shop, free themes, drupal themes, wordpress templates" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="css/bootstrap.css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
+    <link rel="stylesheet" href="css/flexslider.css" media="all">
+    <link rel="stylesheet" href="css/prettyPhoto.css" media="all">
+    <link rel="stylesheet" href="css/mediaelementplayer.min.css" media="all">
+    <link rel="stylesheet" href="css/superfish.css" media="all">
+    <link rel="stylesheet" href="css/bra_social_media.css" media="all">
+    <link rel="stylesheet" href="css/component.css" media="all">
+    <link rel="stylesheet" href="css/theme-options.css" media="all">
+    <link rel="stylesheet" href="css/icoMoon.css" media="all">
+    <link rel="stylesheet" href="css/iview.css" media="all">
+    <link rel="stylesheet" href="css/revolution-slider.css" media="all">
+    <link rel="stylesheet" href="css/fullwidth.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="all">
+    <link rel="stylesheet" href="css/responsive.css" media="all">
+</head>
+<body class="dark-footer flx-home-page-4" style="font-family:'微软雅黑'">
+    
+	<div id="theme-option">
+        <div class="theme-opt-wrapper">
+            <p>Colors - <i style="font-size:11px;"> * You can use Unlimited Colors </i> </p>
+            <ul class="choose-color">
+                <li><a href="#" class="color oran">&nbsp;</a></li>
+                <li><a href="#" class="color cyan">&nbsp;</a></li>
+                <li><a href="#" class="color pink">&nbsp;</a></li>
+                <li><a href="#" class="color green">&nbsp;</a></li>
+                <li><a href="#" class="color red">&nbsp;</a></li>
+                <li><a href="#" class="color gray">&nbsp;</a></li>
+                <li><a href="#" class="color purple">&nbsp;</a></li>
+            </ul>           
+            <p>Template Style</p>
+            <p class="flx-select-layout">
+                <input type="radio" id="flx-select-light-style" name="flx-select-style-choice" value="light" checked="checked">
+                <label for="flx-select-light-style">Light</label>                    
+                <input type="radio" id="flx-select-dark-style" name="flx-select-style-choice" value="dark">
+                <label for="flx-select-dark-style">Dark</label>
+            </p>
+            <p class="flx-select-footer">Footer Style</p>                
+            <p class="flx-select-footer">
+                <input type="radio" id="flx-select-footer-light" name="flx-select-footer-choice" value="f_light" onClick="return felixplus_footer_CHANGE(jQuery(this).val());">
+                <label for="flx-select-footer-light">Light</label>                    
+                <input type="radio" id="flx-select-footer-dark" name="flx-select-footer-choice" value="f_dark" checked="checked"  onClick="return felixplus_footer_CHANGE(jQuery(this).val());">
+                <label for="flx-select-footer-dark">Dark</label>
+            </p>
+            <a href="#" class="btn reset" onClick="return felixplus_theme_option_reset_CLICK();">Reset</a>
+        </div><!--end:theme-opt-wrapper-->
+        
+    </div><!--end:theme-option -->
+	
+	<header id="flx-header" class="flx-divider">
+    	
+        <div class="wrapper">
+        	
+            <div class="row-fluid">
+            	
+                <div class="span12 clearfix">
+                	
+                    <div id="logo-image">
+                    
+                    	<a href="index.html"><img src="placeholders/logo.png" alt="" /></a>
+                        
+                    </div><!--end:logo-image-->
+                    
+                     <nav id="main-nav">
+                    
+                    	<ul id="main-menu" class="clearfix"  style="font-family:'微软雅黑';font-weight:bold;">
+                        
+                        	<li class="current-menu-item">
+                            	<a href="index.html">首页</a>
+                                <ul style="width:72px;">
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                                	<li class="current-menu-item"><a href="index.html">Home Example 1</a></li>
+                                    <li><a href="index2.html">Home Example 2</a></li>
+                                    <li><a href="index3.html">Home Example 3</a></li>
+									<li><a href="index4.html">Home example 4</a></li>
+                                    <li><a href="shop.html">Home with Shop</a></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                            	<a href="case.html">宝酷盒子</a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                                	<li><a href="about-us.html">About us</a></li>
+                                    <li><a href="about-me.html">About me</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="error404.html">Error 404</a></li>
+                                    <li><a href="under-construction.html">Under Construction</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                            	<a href="commune.html">宝酷公社</a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                              	<li><a href="portfolio.html">5 column</a></li>
+                                	<li><a href="portfolio-4col.html">4 column</a></li>
+                                    <li><a href="portfolio-3col.html">3 column</a></li>
+                                    <li><a href="portfolio-2col.html">2 column</a></li>
+                                    <li><a href="project-details.html">Project Details</a>
+                                    	<ul>
+                                        	<li><a href="project-details.html">Single</a></li>
+                                            <li><a href="project-slide.html">Gallery</a></li>
+                                            <li><a href="project-video.html">Video Html5</a></li>
+                                            <li><a href="project-audio.html">Audio Html5</a></li>
+                                            <li><a href="project-youtube.html">Youtube</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>-->
+                            </li>
+                            
+                            <li>
+                            	<a href="cloud.html">宝酷云柜</a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                              	<li><a href="portfolio.html">5 column</a></li>
+                                	<li><a href="portfolio-4col.html">4 column</a></li>
+                                    <li><a href="portfolio-3col.html">3 column</a></li>
+                                    <li><a href="portfolio-2col.html">2 column</a></li>
+                                    <li><a href="project-details.html">Project Details</a>
+                                    	<ul>
+                                        	<li><a href="project-details.html">Single</a></li>
+                                            <li><a href="project-slide.html">Gallery</a></li>
+                                            <li><a href="project-video.html">Video Html5</a></li>
+                                            <li><a href="project-audio.html">Audio Html5</a></li>
+                                            <li><a href="project-youtube.html">Youtube</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>-->
+                            </li>
+                            <li>
+                            	<a href="wifi.html">宝酷<span style="font-family:Arial, Helvetica, sans-serif;">WIFI</span></a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                                	<li><a href="typography.html">Typography</a></li>
+                                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="elements.html">Elements</a></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                            	<a href="product.html">智慧产品</a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                                	<li><a href="blog1.html">Blog I</a></li>
+                                    <li><a href="blog2.html">Blog II</a></li>
+                                    <li><a href="blog3.html">Blog III</a></li>
+                                    <li><a href="blog4.html">Blog IV</a></li>
+                                    <li><a href="blogpost.html">Blog Post</a></li>
+                                    </ul>
+                                </li>-->
+                             </li>
+                             <li>
+                            	<a href="downLoad.html">APP下载</a>
+                                <ul>
+                                	<li></li>
+                                    <li></li>
+                                </ul>
+                                <!--<ul>
+                                	<li><a href="blog1.html">Blog I</a></li>
+                                    <li><a href="blog2.html">Blog II</a></li>
+                                    <li><a href="blog3.html">Blog III</a></li>
+                                    <li><a href="blog4.html">Blog IV</a></li>
+                                    <li><a href="blogpost.html">Blog Post</a></li>
+                                    </ul>
+                                </li>-->
+                             </li>
+                             <li>
+                                       <a href="contacts.html">联系我们</a>
+                                       <ul>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                        <!--<ul>
+                                            <li><a href="product-details.html">Product Details</a></li>
+                                            <li><a href="shopingcart.html">Shopingcart</a></li>
+                                        </ul>-->
+                             </li>
+                        </ul><!--end:main-menu-->
+						
+						<div id="dl-menu" class="dl-menuwrapper" >
+                            <button>Open Menu</button>
+                            <ul class="dl-menu">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="index.html">Home example 1</a></li>
+                                        <li><a href="index2.html">Home example 2</a></li>
+										<li><a href="index3.html">Home Example 3</a></li>
+										<li><a href="index4.html">Home example 4</a></li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="case.html">宝酷盒子</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="about-me.html">About me</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="error404.html">Error 404</a></li>
+                                        <li><a href="under-construction.html">Under Construction</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="commune.html">宝酷公社</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="about-me.html">About me</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="error404.html">Error 404</a></li>
+                                        <li><a href="under-construction.html">Under Construction</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                    </ul>-->
+                                </li>
+                                
+                                <li>
+                                    <a href="cloud.html">宝酷云柜</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="about-me.html">About me</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="error404.html">Error 404</a></li>
+                                        <li><a href="under-construction.html">Under Construction</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="wifi.html">宝酷<span style="font-family:Arial, Helvetica, sans-serif;">WIFI</span></a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="portfolio.html">5 column</a></li>
+										<li><a href="portfolio-4col.html">4 column</a></li>
+                                        <li><a href="portfolio-3col.html">3 column</a></li>
+
+                                        <li><a href="portfolio-2col.html">2 column</a></li>
+                                        <li>
+                                            <a href="project-details.html">Project Details</a>
+                                            <ul class="dl-submenu">
+                                                <li class="dl-back"><a href="#">back</a></li>
+                                                <li><a href="project-details.html">Single</a></li>
+                                                <li><a href="project-slide.html">Gallery</a></li>
+                                                <li><a href="project-video.html">Video Html5</a></li>
+                                                <li><a href="project-audio.html">Audio Html5</a></li>
+                                                <li><a href="project-youtube.html">Youtube</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="product.html">智慧产品</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="typography.html">Typography</a></li>
+                                        <li><a href="pricing-table.html">Pricing Table</a></li>
+                                        <li><a href="icons.html">Icons</a></li>
+                                        <li><a href="elements.html">Elements</a></li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="downLoad.html">APP下载</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="typography.html">Typography</a></li>
+                                        <li><a href="pricing-table.html">Pricing Table</a></li>
+                                        <li><a href="icons.html">Icons</a></li>
+                                        <li><a href="elements.html">Elements</a></li>
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="contacts.html">联系我们</a>
+                                    <!--<ul class="dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href="blog1.html">Blog I</a></li>
+                                        <li><a href="blog2.html">Blog II</a></li>
+                                        <li><a href="blog3.html">Blog III</a></li>
+                                        <li><a href="blog4.html">Blog IV</a></li>
+										<li><a href="blog.html">Blog V</a></li>
+										<li><a href="blogpost.html">Blog Post</a></li>
+                                    </ul>-->
+                                </li>
+                                
+                            </ul>
+                        </div><!-- /dl-menuwrapper -->
+                        
+                    </nav><!--end:main-nav-->
+                    
+                </div><!--end:span12-->
+                
+            </div><!--end:row-fluid-->
+            
+        </div><!--end:wrapper-->
+        
+    </header><!--end:flx-header-->
+    
+    <div id="main-content">
+        
+        <div class="fullwidthbanner-container">
+            <div class="fullwidthbanner">
+                <ul>
+                    <!-- THE FIRST SLIDE -->
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="images/thumbs/thumb1.jpg">
+                                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                                <img src="placeholders/slider/revolution-bg-1.jpg" alt="" >
+
+                                <!-- THE CAPTIONS IN THIS SLDIE -->
+                                <!--<div class="caption lft rev-entry-2" data-x="25" data-y="30" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-2.png" alt="" /></div>-->
+                                <div class="caption lfb rev-entry-1" data-x="50" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="img/hezi.png" alt="" style="width:400px;"/></div>
+                                <div class="caption lfb big_yellow"  data-x="545" data-y="190" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="font-size:44px;font-family:'微软雅黑'">宝酷智慧盒子</div>
+                                <div class="caption lfb small_white"  data-x="550" data-y="270" data-speed="300" data-start="1500" data-easing="easeOutExpo" style="line-height:30px;font-family:'微软雅黑';font-size:22px;">身材虽小，功能强大，高清网络机顶盒，随时</br>看海量高清网络电影、电视剧家庭的贴心管家</br>，不仅关心您的身体，更关爱您的家庭，健康</br>，远程视讯一应俱全</div>
+                                
+                                
+                    </li>
+
+                    <!-- THE SECOND SLIDE -->
+                    <li data-transition="boxfade" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
+                                <img src="placeholders/slider/revolution-bg-2.jpg" alt="" >
+                                <div class="caption sfb rev-entry-3" data-x="730" data-y="130" data-speed="900" data-start="1000" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-3.png" alt="" /></div>
+                                <div class="caption lft rev-entry-4" data-x="540" data-y="20" data-speed="900" data-start="1000" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-4.png" alt="" /></div>
+				<div class="caption lfl stl bg-op"
+                                     data-x="100"
+                                     data-y="200"
+                                     data-speed="300"
+                                     data-start="500"
+                                     data-easing="easeOutExpo" ><p class="big_yellow" style="font-family:'微软雅黑';">多屏展示</p><span class="medium_white" style="font-family:'微软雅黑';margin-top:5px;font-size:20px;">随时随地体验宝酷智慧生活</span></div>
+                               
+                    </li>
+                    
+                    <!-- THE THIRD SLIDE -->
+                    <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300">
+                                <img src="placeholders/slider/revolution-bg-3.jpg" alt="" >
+                                <div class="caption sfb rev-entry-5" data-x="650" data-y="168" data-speed="700" data-start="500" data-easing="easeOutExpo"><img src="placeholders/slider/rev-entry-5.png" alt="" /></div>
+                                <div data-easing="easeOutExpo" data-start="900" data-speed="600" data-y="140" data-x="540" class="caption lft tp-caption start rev-entry-6" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-6.png" alt="" /></div>
+                                <div data-easing="easeOutExpo" data-start="1500" data-speed="800" data-y="70" data-x="400" class="caption lft tp-caption start rev-entry-7" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-7.png" alt="" /></div>
+                                <div data-easing="easeOutExpo" data-start="2000" data-speed="1000" data-y="20" data-x="280" class="caption lft tp-caption start rev-entry-8" data-easing="easeOutBack"><img src="placeholders/slider/rev-entry-8.png" alt="" /></div>
+                                <div class="caption lfl stl bg-op"
+                                     data-x="0"
+                                     data-y="300"
+                                     data-speed="300"
+                                     data-start="500"
+                                     data-easing="easeOutExpo" ><p class="big_yellow" style="font-family:'微软雅黑'">不止是影视</p><span class="medium_white" style="font-size:20px;font-family:'微软雅黑'">多屏互动、健康监测数据分析</br>、视频通话尽在宝酷盒子</span></div>
+                    </li>
+
+                    
+                </ul>
+
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>	
+        
+        
+        
+        <div class="flx-divider" style="border-bottom:1px #d5e3e8 solid;">
+            <div class="wrapper flx-line">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="flx-intro">
+                            <p style="font-family:'微软雅黑';">欢迎来到宝酷，智慧生活从这里开始！</br><span style="font-size:14px;">宝酷智慧生活的核心运营理念：让您及家人过上健康、便捷、心灵满足的智慧生活。</span></p>
+                        </div>
+                    </div>
+                </div><!--end:row-fluid-->
+            </div><!--end:wrapper-->
+        </div><!--end:flx-divider-->
+        
+        <div class="flx-divider">
+        
+        	<div class="wrapper flx-line">
+
+                <div class="row-fluid">
+                
+                	<div class="span12">
+                    
+                    	<ul class="flx-service-4 clearfix">
+                            <li class="clearfix">
+                                <span><img src="img/ico1Index.gif" style="width:90px;margin-bottom:15px;"/></span>
+                                <div class="entry-content">
+                                    <h5 class="entry-title"><a href="#" style="color:#06c5ac;font-family:'微软雅黑'">健康</a></h5>
+                                    <p style="font-family:'微软雅黑';text-align:left;">宝酷智慧生活将提供主要健康指标监控、健康资讯传递、健康知识讲座、健康食品在线订购、免费健康就诊等多种呵护您及家人健康的功能服务。</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span><img src="img/ico2Index.gif" style="width:90px;margin-bottom:15px;"/></span>
+                                <div class="entry-content">
+                                    <h5 class="entry-title"><a href="#" style="color:#1ac2f3;font-family:'微软雅黑'">便捷</a></h5>
+                                    <p style="font-family:'微软雅黑';text-align:left;">宝酷智慧生活将提供社区生活信息提示、视频通话、优惠信息提示、水电煤气费用缴纳、远程家用电器遥控，在线购物等多种多样服务项目，并以社区为单位，提供社区居民内部交流平台，融洽社区邻里关系，减少社区居民间摩擦，构建和谐社区。让您的生活更加简约、便捷与美好。</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span><img src="img/ico3Index.gif" style="width:90px;margin-bottom:15px;"/></span>
+                                <div class="entry-content">
+                                    <h5 class="entry-title"><a href="#" style="color:#ff5696;font-family:'微软雅黑'">心灵满足</a></h5>
+                                    <p style="font-family:'微软雅黑';text-align:left;">宝酷智慧生活还将为您提供使心灵满足的多种服务，包括多达300种的娱乐游戏，所有电视台播放的电视节目，随意点播的视频节目，宝宝早教服务等，愉悦大家的心灵。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    	
+                    </div><!--end:span12-->
+                
+                </div><!--end:row-fluid-->
+            
+            </div><!--end:wrapper-->
+            
+        </div><!--end:flx-divider-->
+        
+        
+        
+        <section class="widget portfolio-widget flx-divider" style="">
+        
+        	<header class="flx-header flx-divider" style="border-bottom:1px solid #d5e3e8;border-top:1px solid #d5e3e8"><div class="wrapper flx-line"></div><!--end:wrapper--></header>
+            
+            <div class="wrapper flx-line">
+            
+            	<div class="row-fluid">
+                	
+                    <div class="span12">
+                    	
+                        <h2 class="widget-title" style="font-family:'微软雅黑';font-weight:bold;">智慧产品</h2>
+                        
+                        <div class="list-carousel responsive" >
+                            
+                            <ul id="flx-slides-1">
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-4.jpg" alt="" />
+                                    	<div class="mask" style="background:#efeff3">
+                                        	<ul>
+                                            	<li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能手表手机</a></li>
+                                            	<li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-4.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            	<li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.70.JYhFS5&id=36923689821" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        	</ul>
+                                    	</div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-1.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">电子脂肪称</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-1.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-9.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">无线门铃</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-9.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.26.iKZXaT&id=15909005734" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/hand.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能手环</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/hand.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?id=21513379271&ali_refid=a3_420434_1006:110" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/yaokong.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;" style="font-size:14px;font-family:'微软雅黑';">wifi智能遥控</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/yaokong.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?id=21629551786&ut_sk=1.UrkZmjgqZ6oDADs7GXX9RCAi_21380790_1393989040.Copy.ShareSceneItemDetail" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-8.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">led蓝牙遥控智能灯泡</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-8.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li style="font-size:14px;" class="pf-lightbox pf-in fontSize"><a rel="" href="http://detail.tmall.com/item.htm?id=37041586833&ali_refid=a3_420434_1006:1103533725:6:led+%B5%C6%C5%DD:cf3de0d9cd7564d21321fc0161ad4437&ali_trackid=1_cf3de0d9cd7564d21321fc0161ad4437&spm=a230r.1.17.2.mv4Nau" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/lanya.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">脑波耳机</a></li>
+                                           	<li class="pf-lightbox"><a href="placeholders/portfolio-images/lanya.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?id=27204592861&ali_refid=a3_420434_1006:1106746230:6:%BF%C9%B4%A9%B4%F7%C9%E8%B1%B8:822474098154833d32258df300a608f1&ali_trackid=1_822474098154833d32258df300a608f1&spm=a230r.1.17.22.Tk2Jvj" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-3.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能wifi插座</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-3.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li style="font-size:14px;" class="pf-lightbox pf-in fontSize"><a rel="" href="http://item.taobao.com/item.htm?ut_sk=1.UrkZmjgqZ6oDADs7GXX9RCAi_21380790_1393989040.Copy.ShareSceneItemDetail&id=35895237064" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/biao.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能手表</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/biao.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?spm=a230r.1.14.25.Tk2Jvj&id=35733046220&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/xueyang.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能血氧仪</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/xueyang.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                                <li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/pf-7.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">宠物防丢器</a></li>
+                                           <li class="pf-lightbox"><a href="placeholders/portfolio-images/pf-7.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示</a></li>
+                                            <li style="font-size:14px;" class="pf-lightbox pf-in fontSize"><a rel="" href="http://item.taobao.com/item.htm?spm=a230r.1.14.284.cwZRt9&id=22085471341#fff" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/suo.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">物联传感无线云智能锁</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/suo.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.80.WfPJVa&id=37458654811&_u=egi6j92b516" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/wanbiao.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">蓝牙智能腕表</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/wanbiao.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?spm=a230r.1.14.1.Tk2Jvj&id=35261307136&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/yundong.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能蓝牙运动耳机</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/yundong.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?id=37450618708&ali_refid=a3_420435_1006:1108108380:6:%D6%C7%C4%DC%C9%E8%B1%B8:2ddcee1d68c18832f42329ac3356c37c&ali_trackid=1_2ddcee1d68c18832f42329ac3356c37c&spm=a230r.1.18.24.kcGjC0" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jianshi.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能无线婴儿监视器</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jianshi.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.301.xAnOg8&id=36769524561" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jianhu.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能远程婴儿监护器</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jianhu.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.1.sJRuEO&id=22137748663&_u=egi6j92af44" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/celiang.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">身高测量仪</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/celiang.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/dingwei.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">GPS定位腕表</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/dingwei.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?id=36732495410&ali_refid=a3_420435_1006:1105826890:6:%CA%D6%B1%ED%CA%D6%BB%FA+%D6%C7%C4%DC:7c78b2fe26aa559cec7884f10eea34c6&ali_trackid=1_7c78b2fe26aa559cec7884f10eea34c6&spm=a230r.1.18.26.Tk2Jvj" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/lianwang.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">联网灯泡</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/lianwang.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://store.apple.com/cn/product/HA779CH/A/philips-hue-%E8%81%94%E7%BD%91%E7%81%AF%E6%B3%A1-%E5%85%A5%E9%97%A8%E5%A5%97%E8%A3%85?cid=AOS-CN-AFF-TOP&fnode=0001050701" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/xueya.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">电子血压计</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/xueya.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/laoren.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">老人监护手表</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/laoren.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jiezhi.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能戒指</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jiezhi.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.124.Tk2Jvj&id=36133903334#" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/feiji.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">遥控飞机</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/feiji.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?ut_sk=1.UrkZmjgqZ6oDADs7GXX9RCAi_21380790_1393989040.Copy.ShareSceneItemDetail&id=19258693303" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/yiti.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能一体机</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/yiti.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/shouhuan.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能手环</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/shouhuan.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.33.Tk2Jvj&id=37253712983" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/shexiang.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能家居摄像机</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/shexiang.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://cn.lbgoo.com/product_info/products_id-2128731.htm" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/zhineng.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">无线智能插座</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/zhineng.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?ut_sk=1.UrkZmjgqZ6oDADs7GXX9RCAi_21380790_1393989040.Copy.ShareSceneItemDetail&id=37352316179" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/ticheng.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">人体秤</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/ticheng.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/fangdao.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能电子防盗门</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/fangdao.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.95.iKZXaT&id=21214971708" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/maike.jpg" alt="" />
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">无线麦克风</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/maike.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.275.9hx5vE&id=23921284877" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jibu.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能计步器</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jibu.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.belter.com.cn/" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jianpan.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">蓝牙小键盘</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jianpan.jpg" rel="prettyPhoto[Gallery]"  style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.345.xAnOg8&id=14172368256" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/zhiwan.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能腕表</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/zhiwan.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?id=35321015668&ut_sk=1.UrkZmjgqZ6oDADs7GXX9RCAi_21380790_1393989040.Copy.ShareSceneItemDetail" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jing.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">全骨传导蓝牙太阳镜</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jing.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=2013.1.0.0.zghQsa&id=22457256415&scm=1007.10039.560.0&pvid=3785a81e-291e-4a12-bf5f-e42c80a0fc5e" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/qingjie.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能情侣戒指</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/qingjie.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.25.7rWq2x&id=37523174935" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/wawa.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">智能娃娃</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/wawa.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://detail.tmall.com/item.htm?spm=a1z10.3.w4011-5842834439.61.Rexzq4&id=36552571629&rn=c042290579b9b742d77eb5348af05036" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+				<li style="width: 200px;">
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/yunshe.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';">云摄像头</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/yunshe.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.86.1yscmv&id=37266357083" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="view view-first">
+                                    	<img src="placeholders/portfolio-images/jiaju.jpg" alt=""/>
+                                    <div class="mask">
+                                        <ul>
+                                            <li class="pf-header"><a href="#pf-detail-box" onClick="" style="font-size:14px;font-family:'微软雅黑';"">智能家居</a></li>
+                                            <li class="pf-lightbox"><a href="placeholders/portfolio-images/jiaju.jpg" rel="prettyPhoto[Gallery]" style="font-size:14px;font-family:'微软雅黑';">放大显示
+
+</a></li>
+                                            <li class="pf-lightbox pf-in fontSize" style="font-size:14px;"><a href="http://www.symbolinfo.cn/_d276309676.htm" rel="" style="font-size:14px;font-family:'微软雅黑';">进入购买网站</a></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </li>
+                            </ul>
+			    
+			   <!--end:flx-slides-1-->
+                            
+                            <div class="clearfix"></div>
+                            
+                            <div class="carousel-nav clearfix">
+                                <a id="prev-1" class="carousel-prev" href="#">&lt;</a>
+                                <a id="next-1" class="carousel-next" href="#">&gt;</a>
+                            </div><!--end:carousel-nav-->
+                            
+                            <a class="view-more" href="product.html"></a>
+                            
+                        </div><!--end:list-carousel-->
+                        
+                    </div><!--end:span12-->
+                    
+                </div><!--row-fluid-->
+                
+            </div><!--end:wrapper-->
+            
+        </section><!--end:portfolio-widget-->
+        
+        
+        <section class="widget logo-client-widget flx-divider">
+        
+        	<div class="wrapper">
+            	
+                <div class="row-fluid">
+                	
+                    <div class="span12">
+                    	
+                        <ul class="logo-client clearfix">
+                        	<li><a href="#"><img alt="" src="img/imgCase.png"/></a></li>
+                            	<li><a href="#"><img alt="" src="img/imgCommt.png"></a></li>
+				<li><a href="#"><img alt="" src="img/imgWu.png"></a></li>
+				<li><a href="#"><img alt="" src="img/imgGui.png"></a></li>
+				<li><a href="#"><img alt="" src="img/imgWifi.png"></a></li>
+                        </ul><!--logo-client-->
+                        
+                    </div><!--end:span12-->
+                    
+                </div><!--end:row-fluid-->
+                
+            </div><!--end:wrapper-->
+            
+        </section><!--end:widget-->
+        
+        <section class="widget bottom-tag-line" style="margin-top:40px;">
+        
+        	<div class="wrapper">
+            
+                <div class="row-fluid">
+                
+                    <div class="span12">
+                            
+                        <div class="tag-line-box clearfix">
+                            <div class="tag-line">
+                                <h2 style="font-family:'微软雅黑'">欢迎加入宝酷智慧公社</h2>
+                                <p style="font-family:'微软雅黑';font-size:14px;">宝酷智慧公社主要针对小区居民，进行实时小区物业信息提示、小区热点追踪、小区论坛等与小区居民生活息息相关的话题为主的互动交流平台。</p>
+                                <p style="font-family:'微软雅黑';font-size:14px;margin-top:15px;">宝酷智慧公社微信号：baokulife</br>宝酷智慧公社热线：<a href="tel:4008901898" style="color:#fff;">4008- 901- 898</a></p>
+                            </div><!--end:tag-line-->
+                            
+                            <img src="img/ma.gif" alt="" />
+                            <span class="white-arrow"></span>
+                        </div><!--tag-line-box-->
+                    
+                    </div><!--end:span12-->
+                
+                </div><!--row-fluid-->
+            
+            </div><!--end:wrapper-->
+            
+        </section><!--end:widget-->
+    <div id="page-bottom" class="flx-divider">
+        
+        <header class="flx-divider"><div class="wrapper flx-line"></div></header>
+        
+        <div class="wrapper flx-line">
+            
+            <div class="row-fluid">
+            
+                <div class="span12 clearfix">
+                
+                    <ul id="bottom-sidebar">
+                    
+                        <li>
+                        
+                            <aside class="widget widget_text">
+                            
+                                <h2 class="widget-title" style="font-family:'微软雅黑';font-size:25px;margin-top:0px;"><a href="about-us.html" style="color:#fff;">关于我们</a></h2>
+                                
+                                <div class="textwidget" style="font-family:'微软雅黑';">
+                                
+                                    <p>宝酷以创造智慧生活为使命，让您及家人过上健康、便捷、心灵满足的智慧生活。宝酷目前的产品有宝酷盒子、宝酷公社、宝酷物业、宝酷云柜、宝酷WIFI。</p>
+                                
+                                <p>宝酷运用现在高科技术，让健康的食品回归您的餐桌，让热情洋溢的邻里关系回归您的生活，让真挚的情感维系住我们身边的每一个人，让生活变得健康、便捷、充满欢乐。宝酷智慧生活的每一位工作人员愿意为这项社会公益性服务产业付出不懈努力。</p>
+                                    
+                                </div><!--textwidget-->
+                                
+                                <ul class="contact-info" style="font-family:'微软雅黑'">
+                                
+                                    <li class="green">
+                                        <img src="img/weizhi.gif" style="margin-top:3px;float:left;margin-right:5px;"/><span class="contact-address">北京市朝阳区光华路甲14号诺安基金大厦7层</span>
+                                    </li>
+                                    <li class="orange">
+                                        <img src="img/phone.gif" style="float:left;margin-right:5px;margin-top:2px;"/><a class="contact-phone" href="tel:4008901898">4008- 901- 898</a>
+                                    </li>
+                                    <li class="blue">
+                                        <img src="img/compu.gif" style="float:left;margin-right:5px;margin-top:4px;"/><a class="contact-email" href="mailto:contact@felixplus.com">www.baokulife.com</a>
+                                    </li>
+                                    
+                                </ul><!--end:contact-info-->
+                            
+                            </aside><!--end:widget-->
+                        
+                        </li>
+                        
+                        <li class="bottom-contact-form">
+                        
+                            <aside class="widget">
+                            
+                                <h2 class="widget-title" style="font-family:'微软雅黑';font-size:25px;margin-top:0px;">请告诉我们您的想法</h2>
+                                
+                                <div id="contact-form-wrap">
+                                    <form id="contact-form" class="clearfix" action="processForm.php" method="post" style="font-family:'微软雅黑';">
+                                        <span class="c-note"><span style="color:#0ac4a3;">反馈</span></br>我们乐意倾听您的意见</span>
+                                        <div class="contact-left">
+                                        	<p class="input-block clearfix">
+                                                <label class="required" for="contact_name">Name<span>*</span></label>
+                                                <input class="valid" type="text" name="name" id="contact_name" value="">
+                                            </p>
+                                            <p class="input-block">
+                                                <label class="required" for="contact_email">Email<span>*</span></label>
+                                                <input type="email" class="valid" name="email" id="contact_email" value="">
+                                            </p>
+                                            <p class="input-block last">   
+                                                <label class="required" for="contact_url">Website</label>                                                            
+                                                <input type="url" value="" id="contact_url" name="url">
+                                            </p>
+                                        </div><!--end:contact-left-->
+                                        <div class="contact-right">
+                                            <p class="textarea-block">                        
+                                                <label class="required" for="contact_message">Message<span>*</span></label>
+                                                <textarea rows="6" cols="80" id="contact_message" name="message"></textarea>
+                                            </p>
+                                        </div><!--end:contact-right-->
+                                        <div class="clear"></div>                            
+                                        <p class="contact-button clearfix">                    
+                                            <input type="submit" id="submit-contact" value="发送邮件" style="font-family:'微软雅黑';">
+                                        </p>
+                                        <div class="clear"></div>                        
+                                    </form>
+                                    <div id="response"></div>
+                                </div><!--contact-form-wrap-->
+                            
+                            </aside><!--end:widget-->
+                        
+                        </li>
+                    
+                    </ul><!--end:bottom-sidebar-->
+                
+                </div><!--end:span12-->
+            
+            </div><!--end:row-fluid-->
+        
+        </div><!--end:wrapper-->
+    
+    </div><!--end:page-bottom-->
+    
+    <footer id="page-footer">
+    
+    	<div class="wrapper">
+        
+        	<div class="row-fluid">
+            
+            	<div class="span12 clearfix">
+                
+                	<div class="copyright" style="font-family:'微软雅黑'">
+                    	<p>Copyright©北京智慧宝酷传媒科技有限公司</p>
+                        <span>网站内容最终解释权归北京智慧宝酷传媒科技有限公司所有，未经授权不得有任何商业用途。</span>
+			<p style="color:#838383;font-size:12px;">网站备案/许可证号：京ICP备14011144号-1</p>
+                    </div><!--end:copyright-->
+                    
+                    <div class="social-media-widget">
+                    	<div class="social-bookmarks">                    
+        					<ul>
+                            	<li class="vimeo"><a href="#" target="_blank"></a></li>
+                                <li class="flickr"><a href="#" target="_blank"></a></li>
+                                
+        					</ul>
+    					</div><!--end:social-bookmarks-->
+					</div><!--end:social-media-widget-->
+					
+					<p id="back-top">
+						<a href="#top"><i class="icon-chevron-up"></i></a>
+					</p><!--end:back-top-->
+                
+                </div><!--end:span12-->
+            
+            </div><!--end:row-fluid-->
+        
+        </div><!--end:wrapper-->
+    
+    </footer><!--end:page-footer-->
+    
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.carouFredSel-5.6.4.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jflickrfeed.min.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <script src="js/modernizr.custom.63321.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/jquery.dropdown.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.dlmenu.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.eislideshow.js"></script>
+    <script src="js/raphael-min.js"></script>
+    <script src="js/iview.js"></script>
+	<script src="js/custom.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.quicksand.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/bra_social_media.js"></script>
+    <script src="js/jquery.themepunch.plugins.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
+    <script src="js/styleswitch.js"></script>
+    
+    <script type="text/javascript">
+
+		var tpj=jQuery;
+		tpj.noConflict();
+
+		tpj(document).ready(function() {
+
+		if (tpj.fn.cssOriginal!=undefined)
+			tpj.fn.css = tpj.fn.cssOriginal;
+
+			tpj('.fullwidthbanner').revolution(
+				{
+					delay:9000,
+					startwidth:1000,
+					startheight:500,
+
+					onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+					thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+					thumbHeight:50,
+					thumbAmount:3,
+
+					hideThumbs:0,
+					navigationType:"bullet",				// bullet, thumb, none
+					navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
+
+					navigationStyle:"round",				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+					navigationHAlign:"left",				// Vertical Align top,center,bottom
+					navigationVAlign:"bottom",					// Horizontal Align left,center,right
+					navigationHOffset:30,
+					navigationVOffset:30,
+
+					soloArrowLeftHalign:"left",
+					soloArrowLeftValign:"center",
+					soloArrowLeftHOffset:0,
+					soloArrowLeftVOffset:0,
+
+					soloArrowRightHalign:"right",
+					soloArrowRightValign:"center",
+					soloArrowRightHOffset:0,
+					soloArrowRightVOffset:0,
+
+					touchenabled:"on",						// Enable Swipe Function : on/off
+
+
+					stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+					stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+					hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+					hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+					hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+					fullWidth:"on",
+
+					shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+				});
+
+
+
+
+	});
+	</script>
+    	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-39766041-1', 'felixplus.com');
+	  ga('send', 'pageview');
+
+	</script>
+    
+</body>
+</html>
